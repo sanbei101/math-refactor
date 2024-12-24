@@ -1,5 +1,5 @@
 {
-  "name": "数学重构计划",
+  "name": "math-refactor",
   "version": "0.0.1",
   "keywords": [
     "数学",
@@ -13,7 +13,8 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "devDependencies": {
-    "vitepress": "^1.5.0"
+  "dependencies": {
+    "vitepress": "^1.5.0",
+    "markdown-it-mathjax3": "^4.3.2"
   }
 }
